@@ -1,0 +1,184 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #2cbb5d;
+}
+
+main {
+    width: min(80%, 55rem);
+    margin: 2rem;
+}
+
+.svg-container {
+    margin: auto;
+    border: 0.3125rem solid black;
+    background: #3bb0b3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 31.25rem) {
+    .svg-container > * {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 31.25rem) {
+    .svg-container > * {
+        width: 50%;
+        height: auto;
+    }
+}
+
+.control-container {
+    margin: -0.625rem auto auto auto;
+    border: 0.3125rem solid black;
+    padding: 1rem;
+    background: #c0c0c0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.control-container button {
+    appearance: none;
+    border: none;
+    padding: .6rem 1.7rem;
+    border-radius: .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.control-container button span {
+    padding-left: .5rem;
+}
+
+/* Button 1 */
+.control-container button:nth-child(1) {
+    background: #1f8041;
+}
+
+.control-container button:nth-child(1):hover {
+    background: #006633;
+}
+
+.control-container button:nth-child(1):active {
+    background: #004d26;
+}
+
+/* Button 2 */
+.control-container button:nth-child(2) {
+    background: #364f80;
+}
+
+.control-container button:nth-child(2):hover {
+    background: #002466;
+}
+
+.control-container button:nth-child(2):active {
+    background: #003366;
+}
+
+/* Button 3 */
+.control-container button:nth-child(3) {
+    background: #1f8077;
+}
+
+.control-container button:nth-child(3):hover {
+    background: #006666;
+}
+
+.control-container button:nth-child(3):active {
+    background: #004d40;
+}
+
+/* Button 4 */
+.control-container button:nth-child(4) {
+    background: #80603c;
+}
+
+.control-container button:nth-child(4):hover {
+    background: #663300;
+}
+
+.control-container button:nth-child(4):active {
+    background: #66421a;
+}
+
+/* Last Button */
+.control-container button:last-child {
+    background: #800000;
+}
+
+.control-container button:last-child:hover {
+    background: #660000;
+}
+
+.control-container button:last-child:active {
+    background: #4d0000;
+}
+
+h1, h2 {
+    margin: 1rem;
+    color: black;
+    text-align: center;
+    font-family: Orbitron, serif;
+}
+
+.lap-list {
+    margin: -0.625rem auto auto auto;
+    border: 0.3125rem solid black;
+    height: 10rem;
+    overflow-Y: scroll;
+}
+
+.lap {
+    padding: 1rem;
+    background: #d7bb39;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.lap:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.lap-list li {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.lap-list button {
+    border: none;
+    margin-left: 3rem;
+    font-size: 1rem;
+    color: darkred;
+    background: transparent;
+    cursor: pointer;
+}
+
+.lap-list button:hover {
+    color: #660000;
+}
+
+.lap-list button:active {
+    color: #4d0000;
+}
+
+hr {
+    border-color: black;
+}
