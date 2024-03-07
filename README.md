@@ -46,8 +46,6 @@ HTML, CSS, and JavaScript files for easy navigation and exploration. Feel free t
    cd javascript-projects/challengeX
    ```
 
-3. Open the `index.html` file in your preferred web browser to view the solution.
-
 ## Contributions
 
 _Feel free to contribute by:_

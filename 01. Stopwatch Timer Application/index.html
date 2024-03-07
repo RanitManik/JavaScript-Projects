@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A user-friendly stopwatch timer application for accurate time tracking.">
     <title>Stopwatch Timer Application</title>
-    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href=assets/images/favicon.png type="image/x-icon">
@@ -214,7 +214,7 @@
                               d="M294.49 180.82C294.57 182.1 298.33 184.02 302.24 185.67C306.99 187.67 311.01 184 310.55 177.92C304.9 104.09 243.22 45.95 167.95 45.95C92.69 45.95 31.01 104.09 25.37 177.91C24.9 184 28.98 187.54 33.76 185.34C37.65 183.55 41.38 181.49 41.47 180.1C46.01 114.21 100.91 62.17 167.95 62.17C235.24 62.17 290.29 114.58 294.49 180.82Z"
                               fill="#494949"/>
                     </g>
-                    <text id="time" transform="matrix(1 0 0 1 110 230)" fill="#ceb800" font-family="digital"
+                    <text id="time-minutes" transform="matrix(1 0 0 1 110 230)" fill="#ceb800" font-family="digital"
                           font-size="120px">00
                     </text>
                 </g>
@@ -425,7 +425,7 @@
                               d="M294.49 180.82C294.57 182.1 298.33 184.02 302.24 185.67C306.99 187.67 311.01 184 310.55 177.92C304.9 104.09 243.22 45.95 167.95 45.95C92.69 45.95 31.01 104.09 25.37 177.91C24.9 184 28.98 187.54 33.76 185.34C37.65 183.55 41.38 181.49 41.47 180.1C46.01 114.21 100.91 62.17 167.95 62.17C235.24 62.17 290.29 114.58 294.49 180.82Z"
                               fill="#494949"/>
                     </g>
-                    <text id="time" transform="matrix(1 0 0 1 110 230)" fill="#20c3f9" font-family="digital"
+                    <text id="time-seconds" transform="matrix(1 0 0 1 110 230)" fill="#20c3f9" font-family="digital"
                           font-size="120px">00
                     </text>
                 </g>
@@ -630,7 +630,8 @@
                               d="M294.49 180.82C294.57 182.1 298.33 184.02 302.24 185.67C306.99 187.67 311.01 184 310.55 177.92C304.9 104.09 243.22 45.95 167.95 45.95C92.69 45.95 31.01 104.09 25.37 177.91C24.9 184 28.98 187.54 33.76 185.34C37.65 183.55 41.38 181.49 41.47 180.1C46.01 114.21 100.91 62.17 167.95 62.17C235.24 62.17 290.29 114.58 294.49 180.82Z"
                               fill="#494949"/>
                     </g>
-                    <text id="time" transform="matrix(1 0 0 1 110 230)" fill="#6DFF3F" font-family="digital"
+                    <text id="time-milliseconds" transform="matrix(1 0 0 1 110 230)" fill="#6DFF3F"
+                          font-family="digital"
                           font-size="120px">00
                     </text>
                 </g>
@@ -643,17 +644,17 @@
         </svg>
     </div>
     <div class="control-container">
-        <button title="start"><i class="fa-solid fa-play"></i><span>Start</span></button>
-        <button title="pause"><i class="fa-solid fa-pause"></i><span>Pause</span></button>
-        <button title="reset"><i class="fa-solid fa-arrows-rotate"></i><span>Reset</span></button>
-        <button title="lap"><i class="fa-regular fa-stopwatch"></i><span>Lap</span></button>
-        <button title="delete"><i class="fa-solid fa-trash"></i><span>Delete</span></button>
+        <button id="btn-start"><i class="fa-solid fa-play"></i><span>Start</span></button>
+        <button id="btn-pause"><i class="fa-solid fa-pause"></i><span>Pause</span></button>
+        <button id="btn-reset"><i class="fa-solid fa-arrows-rotate"></i><span>Reset</span></button>
+        <button id="btn-lap"><i class="fa-regular fa-stopwatch"></i><span>Lap</span></button>
+        <button id="btn-delete"><i class="fa-solid fa-trash"></i><span>Delete</span></button>
     </div>
     <ul class="lap-list">
         <li class="lap">
             <p>
                 <strong>Lap 0: </strong>
-                <span>00:00</span>
+                <span>00:00:00</span>
             </p>
 
             <button title="delete lap">
@@ -662,5 +663,6 @@
         </li>
     </ul>
 </main>
+<script src="script.js"></script>
 </body>
 </html>
