@@ -1,7 +1,4 @@
 <div align="center">
-
-   <img src="https://media2.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=6c09b952ov9ucofja9fbdtury6cd66uv51drqkqqlh97cr2y&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" width="100" alt="">
-
    <h1>JavaScript Projects Repository</h1>
 </div>
 
