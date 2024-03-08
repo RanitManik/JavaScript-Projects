@@ -3,45 +3,49 @@
 </div>
 
 Welcome to my JavaScript Projects repository! Here, I showcase the solutions to a series of projects completed during
-the "Build 20 Projects in 20 Days" JavaScript challenge. Each project has its dedicated directory, containing separate
+the "Build 20 Projects in 20 Days" JavaScript challenge from
+an [udemy course by Vijay Kumar](https://www.udemy.com/course/javascript-projects-course-build-20-projects-in-20-days).
+Each project has its dedicated directory,
+containing separate
 HTML, CSS, and JavaScript files for easy navigation and exploration. Feel free to browse through and check out my work!
 
 ## Projects
 
-| #  | Project                                                                                                                          | Live Demo                                                                                                                |
-|:--:|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| 01 | [Stopwatch Timer Application](https://github.com/RanitManik/JavaScript-projects/tree/main/01.%20Stopwatch%20Timer%20Application) | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/01.%20Stopwatch%20Timer%20Application/index.html)           |
-| 02 | [Vowel Counter Application](JavaScriptProjects02—Vowel-Counter)                                                                  | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects02—Vowel-Counter/index.html)              |
-| 03 | [Poll System Application](JavaScriptProjects03—Poll-System)                                                                      | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects03—Poll-System/index.html)                |
-| 04 | [Random Password Application](JavaScriptProjects04—Random-Password)                                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects04—Random-Password/index.html)            |
-| 05 | [Cash Calculator Application](JavaScriptProjects05—Cash-Calculator)                                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects05—Cash-Calculator/index.html)            |
-| 06 | [Random HEX Color Generator Application](JavaScriptProjects06—Random-HEX-Color-Generator)                                        | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects06—Random-HEX-Color-Generator/index.html) |
-| 07 | [Note Taking Application](JavaScriptProjects07—Note-Taking)                                                                      | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects07—Note-Taking/index.html)                |
-| 08 | [Dictionary Application](JavaScriptProjects08—Dictionary)                                                                        | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects08—Dictionary/index.html)                 |
-| 09 | [Text Animation Project](JavaScriptProjects09—Text-Animation)                                                                    | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects09—Text-Animation/index.html)             |
-| 10 | [Mouse Wheel Zoom-In-Out Application](JavaScriptProjects10—Mouse-Wheel-Zoom-In-Out)                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects10—Mouse-Wheel-Zoom-In-Out/index.html)    |
-| 11 | [Paragraph Generator Project](JavaScriptProjects11—Paragraph-Generator)                                                          | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects11—Paragraph-Generator/index.html)        |
-| 12 | [Loan Calculator Application](JavaScriptProjects12—Loan-Calculator)                                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects12—Loan-Calculator/index.html)            |
-| 13 | [Tip Calculator Application](JavaScriptProjects13—Tip-Calculator)                                                                | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects13—Tip-Calculator/index.html)             |
-| 14 | [Digital Clock Project](JavaScriptProjects14—Digital-Clock)                                                                      | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects14—Digital-Clock/index.html)              |
-| 15 | [Expense Tracker Application](JavaScriptProjects15—Expense-Tracker)                                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects15—Expense-Tracker/index.html)            |
-| 16 | [Fixed Deposit Calculator Application](JavaScriptProjects16—Fixed-Deposit-Calculator)                                            | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects16—Fixed-Deposit-Calculator/index.html)   |
-| 17 | [Simple To-Do List Project](JavaScriptProjects17—Simple-To-Do-List)                                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects17—Simple-To-Do-List/index.html)          |
-| 18 | [BMI Calculator Application](JavaScriptProjects18—BMI-Calculator)                                                                | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects18—BMI-Calculator/index.html)             |
-| 19 | [Date and Time Widget](JavaScriptProjects19—Date-and-Time-Widget)                                                                | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects19—Date-and-Time-Widget/index.html)       |
-| 20 | [Advanced Age Calculator Application](JavaScriptProjects20—Advanced-Age-Calculator)                                              | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects20—Advanced-Age-Calculator/index.html)    |
+| #  | Project                                                                                                                                                       | Live Demo                                                                                                                                   |
+|:--:|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| 01 | [Stopwatch Timer Application](https://github.com/RanitManik/JavaScript-projects-Build-20-Projects-in-20-Days/tree/main/01.%20Stopwatch%20Timer%20Application) | [Live Demo](https://ranitmanik.github.io/JavaScript-projects-Build-20-Projects-in-20-Days/01.%20Stopwatch%20Timer%20Application/index.html) |
+| 02 | [Vowel Counter Application](JavaScriptProjects02—Vowel-Counter)                                                                                               | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects02—Vowel-Counter/index.html)                                 |
+| 03 | [Poll System Application](JavaScriptProjects03—Poll-System)                                                                                                   | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects03—Poll-System/index.html)                                   |
+| 04 | [Random Password Application](JavaScriptProjects04—Random-Password)                                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects04—Random-Password/index.html)                               |
+| 05 | [Cash Calculator Application](JavaScriptProjects05—Cash-Calculator)                                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects05—Cash-Calculator/index.html)                               |
+| 06 | [Random HEX Color Generator Application](JavaScriptProjects06—Random-HEX-Color-Generator)                                                                     | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects06—Random-HEX-Color-Generator/index.html)                    |
+| 07 | [Note Taking Application](JavaScriptProjects07—Note-Taking)                                                                                                   | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects07—Note-Taking/index.html)                                   |
+| 08 | [Dictionary Application](JavaScriptProjects08—Dictionary)                                                                                                     | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects08—Dictionary/index.html)                                    |
+| 09 | [Text Animation Project](JavaScriptProjects09—Text-Animation)                                                                                                 | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects09—Text-Animation/index.html)                                |
+| 10 | [Mouse Wheel Zoom-In-Out Application](JavaScriptProjects10—Mouse-Wheel-Zoom-In-Out)                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects10—Mouse-Wheel-Zoom-In-Out/index.html)                       |
+| 11 | [Paragraph Generator Project](JavaScriptProjects11—Paragraph-Generator)                                                                                       | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects11—Paragraph-Generator/index.html)                           |
+| 12 | [Loan Calculator Application](JavaScriptProjects12—Loan-Calculator)                                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects12—Loan-Calculator/index.html)                               |
+| 13 | [Tip Calculator Application](JavaScriptProjects13—Tip-Calculator)                                                                                             | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects13—Tip-Calculator/index.html)                                |
+| 14 | [Digital Clock Project](JavaScriptProjects14—Digital-Clock)                                                                                                   | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects14—Digital-Clock/index.html)                                 |
+| 15 | [Expense Tracker Application](JavaScriptProjects15—Expense-Tracker)                                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects15—Expense-Tracker/index.html)                               |
+| 16 | [Fixed Deposit Calculator Application](JavaScriptProjects16—Fixed-Deposit-Calculator)                                                                         | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects16—Fixed-Deposit-Calculator/index.html)                      |
+| 17 | [Simple To-Do List Project](JavaScriptProjects17—Simple-To-Do-List)                                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects17—Simple-To-Do-List/index.html)                             |
+| 18 | [BMI Calculator Application](JavaScriptProjects18—BMI-Calculator)                                                                                             | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects18—BMI-Calculator/index.html)                                |
+| 19 | [Date and Time Widget](JavaScriptProjects19—Date-and-Time-Widget)                                                                                             | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects19—Date-and-Time-Widget/index.html)                          |
+| 20 | [Advanced Age Calculator Application](JavaScriptProjects20—Advanced-Age-Calculator)                                                                           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/JavaScriptProjects20—Advanced-Age-Calculator/index.html)                       |
 
 ## How to Use
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/RanitManik/javascript-projects.git
+   git clone https://github.com/RanitManik/JavaScript-projects-Build-20-Projects-in-20-Days.git
    ```
 
 2. Navigate to the specific challenge directory.
    ```bash
    cd javascript-projects/challengeX
    ```
+3. Open the `index.html` file in your preferred web browser to view the solution.
 
 ## Contributions
 
@@ -87,3 +91,16 @@ Please create a new branch for each set of changes and submit a pull request.
     <td><a href="https://www.facebook.com/RanitKumarManik/" target="_blank">Facebook</a></td>
 </tr>
 </table>
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgment
+
+I would like to express my gratitude to Vijay Kumar for providing the "Build 20 Projects in 20 Days" JavaScript
+challenge on Udemy. This repository showcases my solutions to the challenges, and I acknowledge the valuable learning
+experience gained through this course. Special thanks to the open-source community for fostering an environment of
+collaboration and continuous improvement.
+
+Happy coding! 🚀

@@ -88,7 +88,7 @@ function toggleButtonState(state) {
 // Function to update the timer
 function updateTimer() {
     milliseconds++;
-    if (milliseconds === 60) {
+    if (milliseconds === 100) {
         milliseconds = 0;
         seconds++;
     }
