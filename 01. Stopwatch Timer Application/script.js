@@ -45,18 +45,19 @@ resetButton.addEventListener('click', () => {
     pauseButton.disabled = true;
     startButton.disabled = false;
     lapButton.disabled = true;
-    deleteButton.disabled = true;
 });
 
 // Lap button click event
 lapButton.addEventListener('click', () => {
     addToList();
+    deleteButton.disabled = false;
 });
 
 // Delete button click event
 deleteButton.addEventListener('click', () => {
     // Reset lap list to initial state
     lapList.innerHTML = '';
+    deleteButton.disabled = true;
 });
 
 // Lap list click event to handle lap deletion
@@ -81,6 +82,7 @@ function toggleButtonState(state) {
     pauseButton.disabled = state;
     resetButton.disabled = state;
     lapButton.disabled = state;
+    deleteButton.disabled = state;
 }
 
 // Function to update the timer
