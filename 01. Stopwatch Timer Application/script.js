@@ -126,7 +126,8 @@ function resetTimeData() {
 function addToList() {
     const lapTime = `${padTime(minutes)}:${padTime(seconds)}:${padTime(milliseconds)}`;
     const listItem = document.createElement('li');
-    listItem.innerHTML = `<li class="lap">
+    listItem.classList.add('lap');
+    listItem.innerHTML = `
             <p>
                 <strong>Lap ${lapList.childElementCount}: </strong>
                 <span>${lapTime}</span>
@@ -134,8 +135,7 @@ function addToList() {
 
             <button title="delete lap">
                 <i class="fa-solid fa-trash"></i>
-            </button>
-        </li>`;
+            </button>`;
     lapList.appendChild(listItem);
     listItem.scrollIntoView({behavior: 'smooth'});
 }
