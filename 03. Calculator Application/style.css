@@ -50,3 +50,11 @@ button:not(:last-child) {
 .calculation-operator {
     background-color: #fc9f0a;
 }
+
+footer {
+    margin-block: 2rem;
+}
+
+footer a {
+    color: #2f81f7;
+}

@@ -182,3 +182,7 @@ h1, h2 {
 hr {
     border-color: black;
 }
+
+footer {
+    margin-bottom: 1rem;
+}

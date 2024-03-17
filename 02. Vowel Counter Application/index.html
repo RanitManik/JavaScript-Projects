@@ -9,7 +9,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<header>
+    <img src="assets/image.svg" alt="">
+    <h1>
+        Vowel Checker
+    </h1>
+</header>
+<main>
+    <label for="inputText"></label>
+    <textarea name="inputText" id="inputText" autocapitalize="none" placeholder="enter some text..."
+              autofocus="autofocus" rows="5"></textarea>
+    <button onclick="countVowels()">
+        count vowels
+    </button>
+    <p id="result">
+        Result
+    </p>
+</main>
+<footer>
+    Made by <a href="https://github.com/RanitManik">RANIT MANIK</a>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

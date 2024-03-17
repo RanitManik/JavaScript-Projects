@@ -77,10 +77,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgment
 
-I would like to express my gratitude to [Vijay Kumar](https://www.udemy.com/user/vijay-kumar-4865/) for providing the "
-Build 20 Projects in 20 Days" JavaScript
-challenges on Udemy. This repository showcases my solutions to the challenges, and I acknowledge the valuable learning
-experience gained through this course. Special thanks to the open-source community for fostering an environment of
+Special thanks to the open-source community for fostering an environment of
 collaboration and continuous improvement.
 
 Happy coding! 🚀
