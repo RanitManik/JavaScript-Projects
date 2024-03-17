@@ -1,6 +1,5 @@
-<div align="center">
-   <h1>JavaScript Projects Repository</h1>
-</div>
+<h1>JavaScript Projects</h1>
+
 Greetings, fellow developers! This is Ranit Manik, and I'm excited to present my JavaScript Projects repository. Here, you'll find a collection of projects that I've completed during my journey as a beginner in JavaScript. Each project has its own dedicated directory, featuring separate HTML, CSS, and JavaScript files for convenient navigation and exploration.
 Feel free to browse through the repository and explore the solutions. Whether you're a fellow learner, an experienced
 developer, or just curious, your feedback and insights are always welcome.
