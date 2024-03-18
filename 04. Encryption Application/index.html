@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="Encryption Application - A simple and secure tool to encrypt and decrypt sensitive data. Protect your information with ease. Developed by RANIT MANIK.">
     <title>Encryption Application</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <h1>
+        Encryption Application
+    </h1>
+</header>
+<main>
+    <label id="input-label" for="inputText">input</label>
+    <textarea name="inputText" id="inputText" autocapitalize="none" spellCheck="false" placeholder="enter some text"
+              autofocus="autofocus" rows="4"></textarea>
 
+    <label id="shift-label" for="inputShift"></label>
+    <input name="inputShift" id="inputShift" type="number" placeholder="enter shift integer">
+    <div class="btn">
+        <button onclick="encryptData()">
+            encrypt
+        </button>
+        <button onclick="decryptData()">
+            decrypt
+        </button>
+    </div>
+    <label id="output-label" for="outputText">output</label>
+    <textarea name="outputText" id="outputText" autocapitalize="none" placeholder="output text"
+              rows="4" spellCheck="false" readonly></textarea>
+</main>
+<footer>
+    Made by <a href="https://github.com/RanitManik">RANIT MANIK</a>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

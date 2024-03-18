@@ -1,6 +1,9 @@
 <h1>JavaScript Projects</h1>
 
-Greetings, fellow developers! This is Ranit Manik, and I'm excited to present my JavaScript Projects repository. Here, you'll find a collection of projects that I've completed during my journey as a beginner in JavaScript. Each project has its own dedicated directory, featuring separate HTML, CSS, and JavaScript files for convenient navigation and exploration.
+Greetings, fellow developers! This is Ranit Manik, and I'm excited to present my JavaScript Projects repository. Here,
+you'll find a collection of projects that I've completed during my journey as a beginner in JavaScript. Each project has
+its own dedicated directory, featuring separate HTML, CSS, and JavaScript files for convenient navigation and
+exploration.
 Feel free to browse through the repository and explore the solutions. Whether you're a fellow learner, an experienced
 developer, or just curious, your feedback and insights are always welcome.
 
@@ -11,6 +14,7 @@ developer, or just curious, your feedback and insights are always welcome.
 | 01 | [Stopwatch Timer Application](https://github.com/RanitManik/JavaScript-projects/tree/main/01.%20Stopwatch%20Timer%20Application) | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/01.%20Stopwatch%20Timer%20Application/index.html) |
 | 02 | [Vowel Counter Application](https://github.com/RanitManik/JavaScript-projects/tree/main/02.%20Vowel%20Counter%20Application)     | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/02.%20Vowel%20Counter%20Application/index.html)   |
 | 03 | [Calculator Application](https://github.com/RanitManik/JavaScript-projects/tree/main/03.%20Calculator%20Application)             | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/03.%20Calculator%20Application/index.html)        |
+| 04 | [Encryption Application](https://github.com/RanitManik/JavaScript-projects/tree/main/04.%Encryption%20Application)               | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/04.%20Encryption%20Application/index.html)        |
 
 ## How to Use
 
