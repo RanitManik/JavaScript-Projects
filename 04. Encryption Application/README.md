@@ -22,7 +22,7 @@ for more information about the challenge.
 ## Links
 
 - **Solution**:
-  Find the solution on GitHub: [Encryption Application Solution](https://github.com/RanitManik/JavaScript-projects/tree/main/04.%Encryption%20Application)
+  Find the solution on GitHub: [Encryption Application Solution](https://github.com/RanitManik/JavaScript-projects/tree/main/04.%20Encryption%20Application)
 - **Live Demo**:
   Experience the application live: [Encryption Live Demo](https://ranitmanik.github.io/JavaScript-projects/04.%20Encryption%20Application/index.html)
 
