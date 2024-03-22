@@ -90,31 +90,33 @@ fieldset legend {
 fieldset > div {
     padding: 1rem 1rem;
     background: #0d1117;
-    margin-bottom: .5rem;
-    border: 1px solid #2c3239;
+    margin-bottom: 1rem;
+    border: 0.0625rem solid #2c3239;
     border-radius: 0.375rem;
     display: flex;
     align-items: center;
     cursor: pointer;
     position: relative;
+    box-shadow: 0.3125rem 0.3125rem 0 #2c3239;
+    overflow: hidden;
 }
 
 fieldset > div > div {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 3px;
+    height: 0.1875rem;
     border-radius: 100vh;
-    background-color:#2f81f7;
+    background-color: #2f81f7;
 }
 
 fieldset > div:hover {
-    border: 1px solid #2f81f7;
+    border: 0.0625rem solid #2f81f7;
     background: #151d26;
 }
 
 .selected {
-    border: 1px solid #2972d9;
+    border: 0.0625rem solid #2972d9;
     background: rgba(28, 39, 51, 0.9);
 }
 

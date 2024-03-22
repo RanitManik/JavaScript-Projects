@@ -1,7 +1,6 @@
 # Poll System Application
 
-Welcome to the Poll System Application! This project is the next challenge from the JavaScript Projects series, focused
-on creating a versatile platform for creating and managing polls.
+This project is the fifth challenge from the JavaScript Projects series, focusing on building a Poll System Application. Below, you'll find simplified explanations and instructions for this challenge along with relevant links.
 
 ## Table of Contents
 
@@ -13,9 +12,7 @@ on creating a versatile platform for creating and managing polls.
 
 ## The Challenge
 
-The challenge involves building a Poll System Application that allows users to create, manage, and participate in polls.
-The application should support the creation of custom polls with multiple-choice questions and provide real-time results
-and analytics.
+The challenge involves creating a Poll System Application where users can vote for their favorite programming language. Users should be able to select their preferred programming language from the provided options, submit their vote, and view the poll results in real-time.
 
 ## Screenshot
 
@@ -35,7 +32,6 @@ and analytics.
 
 ## Acknowledgments
 
-Gratitude is extended to the open-source community for fostering an environment of collaboration and continuous
-improvement.
+Gratitude is extended to the open-source community for fostering an environment of collaboration and continuous improvement.
 
-Happy coding! 🚀
+Happy polling! 🗳️🚀

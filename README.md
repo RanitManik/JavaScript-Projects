@@ -15,6 +15,7 @@ developer, or just curious, your feedback and insights are always welcome.
 | 02 | [Vowel Counter Application](https://github.com/RanitManik/JavaScript-projects/tree/main/02.%20Vowel%20Counter%20Application)     | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/02.%20Vowel%20Counter%20Application/index.html)   |
 | 03 | [Calculator Application](https://github.com/RanitManik/JavaScript-projects/tree/main/03.%20Calculator%20Application)             | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/03.%20Calculator%20Application/index.html)        |
 | 04 | [Encryption Application](https://github.com/RanitManik/JavaScript-projects/tree/main/04.%20Encryption%20Application)             | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/04.%20Encryption%20Application/index.html)        |
+| 05 | [Poll System Application](https://github.com/RanitManik/JavaScript-projects/tree/main/05.%20Poll%20System%20Application)         | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/05.%20Poll%20System%20Application/index.html)     |
 
 ## How to Use
 
