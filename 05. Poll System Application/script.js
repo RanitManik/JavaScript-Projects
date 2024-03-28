@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Loop through each div element and add click event listener
     divElements.forEach(div => {
         div.addEventListener('click', () => {
+            // Remove the 'selected' class from all div elements
+            divElements.forEach(d => {
+                d.classList.remove('selected');
+            });
+            // Add the 'selected' class to the clicked div
+            div.classList.add('selected');
+
             // Get the input element within the clicked div
             const inputElement = div.querySelector('input[type="radio"]');
             // Toggle the checked attribute of the input element
@@ -27,7 +34,5 @@ document.addEventListener('DOMContentLoaded', () => {
             let emptyDiv = div.querySelector('div');
             emptyDiv.style.width = percent;
         });
-
-        // You can optionally display a confirmation message or perform other actions here
     });
 });
