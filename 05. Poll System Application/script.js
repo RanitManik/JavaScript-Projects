@@ -2,6 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Get all the div elements within the fieldset
     const divElements = document.querySelectorAll('fieldset > div');
+    // Get the form element
+    const pollForm = document.getElementById('pollForm');
 
     // Loop through each div element and add click event listener
     divElements.forEach(div => {
@@ -20,19 +22,42 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Get the form element
-    const pollForm = document.getElementById('pollForm');
-
-    // Add submit event listener to the form
+    // Calculate and update the width and percentage of votes
     pollForm.addEventListener('submit', (event) => {
         // Prevent the default form submission behavior
         event.preventDefault();
 
-        // Adjust the width of empty divs based on percentage
+        // Retrieve the current vote data from local storage
+        let voteData = localStorage.getItem('voteData');
+        voteData = voteData ? JSON.parse(voteData) : {
+            "JavaScript": 0,
+            "Java": 0,
+            "Python": 0,
+            "Cpp": 0
+        };
+
+        // Parse the language from the id
+        const selectedId = document.querySelector('input[name="language"]:checked').id;
+        voteData[selectedId]++;
+
+        // Save the updated vote data to local storage
+        localStorage.setItem('voteData', JSON.stringify(voteData));
+
+        // Calculate total votes
+        let totalVotes = 0;
+        for (const language in voteData) {
+            totalVotes += voteData[language];
+        }
+
+        // Update percentages and widths
         divElements.forEach(div => {
-            let percent = div.querySelector('span').innerText;
-            let emptyDiv = div.querySelector('div');
+            const language = div.querySelector('input[type="radio"]').value;
+            const votes = voteData[language];
+            const percent = Math.ceil(votes / totalVotes * 100) + '%';
+            const emptyDiv = div.querySelector('div');
             emptyDiv.style.width = percent;
+            // Update the displayed percentage
+            div.querySelector('span').textContent = percent;
         });
     });
 });

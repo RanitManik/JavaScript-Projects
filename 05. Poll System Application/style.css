@@ -48,6 +48,7 @@ button {
     border-radius: 0.375rem;
     margin-top: 1rem;
     width: 100%;
+    font-size: 1.25rem;
 }
 
 button:hover {
@@ -103,11 +104,12 @@ fieldset > div {
 
 fieldset > div > div {
     position: absolute;
+    top: 0;
     bottom: 0;
     left: 0;
-    height: 0.1875rem;
-    border-radius: 100vh;
-    background-color: #2f81f7;
+    width: 0;
+    background-color: rgba(47, 129, 247, 0.25);
+    transition: width 0.3s;
 }
 
 fieldset > div:hover {
