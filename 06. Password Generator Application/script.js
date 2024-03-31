@@ -39,7 +39,7 @@ const uppercaseEl = document.getElementById("uppercase");
 const numbersEl = document.getElementById("numbers");
 const symbolsEl = document.getElementById("symbols");
 
-const checkedArray = [lowercase, uppercase, numbers, symbols];
+const checkedArray = [lowercase, uppercase, numbers];
 
 lowercaseEl.addEventListener("change", updateCheckedArray);
 uppercaseEl.addEventListener("change", updateCheckedArray);
