@@ -1,0 +1,183 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    padding: 0;
+    background-color: #010409;
+    color: white;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    margin-inline: 2rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: lighter;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 30rem;
+    width: 100%;
+    padding: 3rem 2rem;
+    background-color: #0D1117;
+    border-radius: 0.375rem;
+    border: 0.0625rem solid #2c3239;
+}
+
+.passBox {
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: normal;
+    border: none;
+    color: white;
+    background-color: #161B22;
+    padding: .8rem 1rem;
+    margin-block: .5rem;
+    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+}
+
+
+.inputBox {
+    position: relative;
+}
+
+.copyButton {
+    position: absolute;
+    right: 1rem;
+    top: .6rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: .2rem;
+    border-radius: 0.4rem;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .passBox {
+        padding-right: 2.5rem;
+    }
+
+    .copyButton {
+        right: .5rem;
+    }
+}
+
+.copyButton:hover {
+    background-color: #30363d;
+}
+
+.copyButton img {
+    height: 20px;
+    width: 20px;
+}
+
+.inputSlider {
+    display: block;
+    width: 100%;
+    margin-block: 1rem;
+}
+
+.row input[type="checkbox"], .sliderValue {
+    margin-inline: .6rem;
+}
+
+.row strong {
+    margin-bottom: .2rem;
+}
+
+.pass-indicator {
+    width: 100%;
+    position: relative;
+    height: 4px;
+    background-color: #161B22;
+    border-radius: 100vh;
+    overflow: hidden;
+}
+
+.pass-indicator::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.pass-indicator.weak::before {
+    width: 20%;
+    background-color: red;
+}
+
+.pass-indicator.medium::before {
+    width: 50%;
+    background-color: #F1c80B;
+}
+
+.pass-indicator.strong::before {
+    width: 100%;
+    background-color: #238636;
+}
+
+.genBtn {
+    background-color: #238636;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.375rem;
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.genBtn:hover {
+    background-color: #2ea043;
+}
+
+.genBtn:active {
+    background-color: #238636;
+}
+
+footer {
+    width: 100%;
+    max-width: 30rem;
+    margin-block: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    border: 0.0625rem solid #2c3239;
+    text-align: center;
+}
+
+footer a {
+    color: #2f81f7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .8rem;
+}

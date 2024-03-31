@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Password Generator Application - Generate secure passwords with varying lengths and character types. Developed by RANIT MANIK.">
+    <title>Password Generator Application</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Password Generator Application">
+    <meta property="og:description"
+          content="Generate secure passwords with varying lengths and character types. Developed by RANIT MANIK.">
+    <meta property="og:image"
+          content="https://ranitmanik.github.io/JavaScript-projects/06.%20Password%20Generator%20Application/assets/favicon.svg">
+    <meta property="og:url"
+          content="https://ranitmanik.github.io/JavaScript-projects/06.%20Password%20Generator%20Application/index.html">
+    <meta property="og:type" content="website">
+</head>
+<body>
+<main>
+    <h1>Password Generator</h1>
+
+    <div class="inputBox">
+        <label class="hidden" for="passBox" aria-hidden="false">Generated Password</label>
+        <input type="text" class="passBox" id="passBox" disabled>
+        <button class="copyButton" id="copyBtn">
+            <img id="copyIcon" src="assets/copy-icon.svg" alt="copy">
+        </button>
+    </div>
+    <div class="pass-indicator" id="passIndicator"></div>
+
+    <label class="hidden" aria-hidden="false" for="inputSlider">Password Length slider</label>
+    <input type="range" min="1"
+           max="30" value="9"
+           step="1" class="inputSlider"
+           id="inputSlider">
+    <div class="row">
+        <strong>Password Length</strong>
+        <strong id="sliderValue" class="sliderValue">12</strong>
+    </div>
+
+    <div class="row">
+        <label for="lowercase">Include Lowercase Letters (a-z)</label>
+        <input type="checkbox" name="lowercase" id="lowercase" checked>
+    </div>
+
+    <div class="row">
+        <label for="uppercase">Include Uppercase Letters (A-Z)</label>
+        <input type="checkbox" name="uppercase" id="uppercase" checked>
+    </div>
+
+    <div class="row">
+        <label for="numbers">Include Numbers (0-9)</label>
+        <input type="checkbox" name="numbers" id="numbers" checked>
+    </div>
+
+    <div class="row">
+        <label for="symbols">Include Symbols (@-*)</label>
+        <input type="checkbox" name="symbols" id="symbols">
+    </div>
+
+    <button class="genBtn" id="genBtn">Generate Password</button>
+</main>
+<footer>
+    Made with ♥️ by <a href="https://github.com/RanitManik">RANIT MANIK</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
