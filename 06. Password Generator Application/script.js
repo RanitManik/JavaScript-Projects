@@ -21,6 +21,8 @@ getSliderValue.addEventListener("input", () => {
     generatePassword();
 });
 
+document.querySelector(".pass-indicator").classList.add(calculateStrength(getSliderValue.value));
+
 function calculateStrength(value) {
     if (value < 10) {
         return "weak";
