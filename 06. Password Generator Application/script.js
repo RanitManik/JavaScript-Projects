@@ -73,6 +73,11 @@ function updateCheckedArray() {
 let password = "";
 
 function generatePassword() {
+    if (checkedArray.length === 0) {
+        alert("check at least one checkbox to generate a password");
+        document.getElementById("passBox").value = "check at least one checkbox";
+        return;
+    }
     const value = getSliderValue.value;
     password = "";
     for (let i = 0; i < value; i++) {
