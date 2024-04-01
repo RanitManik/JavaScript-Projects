@@ -85,12 +85,15 @@ button:active {
     background-color: #238636;
 }
 
-#txtFinalCash, #txtFinalCashInWords {
+.final-result p {
     margin-top: 1rem;
     border-radius: 0.375rem;
     padding: 0.5rem 1rem;
     border: 0.0625rem solid #2c3239;
     font-weight: bold;
+   /* display: flex;
+    flex-wrap: wrap;
+    align-content: center;*/
 }
 
 footer {
@@ -112,7 +115,7 @@ footer a:hover {
 }
 
 @media screen and (min-width: 60rem) {
-    .money {
+    .money-input {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -134,3 +137,9 @@ footer a:hover {
     justify-content: center;
 }
 
+.money-input .row img {
+    width: 71px;
+    height: 36px;
+    object-fit: contain;
+    object-position: center;
+}

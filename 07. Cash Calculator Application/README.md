@@ -26,10 +26,10 @@ and display the result. Additionally, include a reset button to clear all inputs
 
 - **Solution**:
   Find the solution on
-  GitHub: [Cash Calculator Application Solution](https://github.com/RanitManik/JavaScript-projects/tree/main/06.%20Cash%20Calculator%20Application)
+  GitHub: [Cash Calculator Application Solution](https://github.com/RanitManik/JavaScript-projects/tree/main/07.%20Cash%20Calculator%20Application)
 - **Live Demo**:
   Experience the application
-  live: [Cash Calculator Live Demo](https://github.com/RanitManik/JavaScript-projects/tree/main/06.%20Cash%20Calculator%20Application/index.html)
+  live: [Cash Calculator Live Demo](https://ranitmanik.github.io/JavaScript-projects/07.%20Cash%20Calculator%20Application/index.html)
 
 ## Author
 
