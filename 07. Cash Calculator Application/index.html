@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Cash Calculator Application - Calculate total cash based on various denominations. Developed by RANIT MANIK.">
+    <title>Cash Calculator Application</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Cash Calculator Application">
+    <meta property="og:description"
+          content="Calculate total cash based on various denominations. Developed by RANIT MANIK.">
+    <meta property="og:image"
+          content="https://ranitmanik.github.io/JavaScript-projects/07.%20Cash%20Calculator%20Application/assets/favicon.svg">
+    <meta property="og:url"
+          content="https://ranitmanik.github.io/JavaScript-projects/07.%20Cash%20Calculator%20Application/index.html">
+    <meta property="og:type" content="website">
+</head>
+<body>
+<header>
+    <h1>Cash Calculator</h1>
+</header>
+<main>
+    <section class="money">
+        <div class="col">
+            <div class="row">
+                <img src="assets/images/two_thousand_note.png" alt="">
+                <label for="et2000"></label>
+                <input type="number" id="et2000" class="cash-input"
+                       placeholder="Enter No. of Rs.2000 Notes">
+            </div>
+
+            <div class="row">
+                <img src="assets/images/five_hundred_note.png" alt="">
+                <label for="et500"></label>
+                <input type="number" id="et500" class="cash-input"
+                       placeholder="Enter No. of Rs.500 Notes">
+            </div>
+            <div class="row">
+                <img src="assets/images/two_hundred_note.png" alt="">
+                <label for="et200">
+                </label>
+                <input type="number" id="et200" class="cash-input"
+                       placeholder="Enter No. of Rs.200 Notes">
+            </div>
+
+            <div class="row">
+                <img src="assets/images/one_hundred.png" alt="">
+                <label for="et100"></label>
+                <input type="number" id="et100" class="cash-input"
+                       placeholder="Enter No. of Rs.100 Notes">
+            </div>
+            <div class="row">
+                <img src="assets/images/fifty_note.png" alt="">
+                <label for="et50"></label>
+                <input type="number" id="et50" class="cash-input"
+                       placeholder="Enter No. of Rs.50 Notes">
+            </div>
+        </div>
+
+        <div class="col">
+
+            <div class="row">
+                <img src="assets/images/twenty_note.png" alt="">
+                <label for="et20"></label>
+                <input type="number" id="et20" class="cash-input"
+                       placeholder="Enter No. of Rs.20 Notes">
+            </div>
+
+            <div class="row">
+                <img src="assets/images/ten_note.png" alt="">
+                <label for="et10"></label>
+                <input type="number" id="et10" class="cash-input"
+                       placeholder="Enter No. of Rs.10 Notes">
+            </div>
+
+            <div class="row">
+                <img src="assets/images/five_note.png" alt="">
+                <label for="et5"></label>
+                <input type="number" id="et5" class="cash-input" placeholder="Enter No. of Rs.5 Notes">
+            </div>
+
+            <div class="row">
+                <img src="assets/images/two_note.png" alt="">
+                <label for="et2"></label>
+                <input type="number" id="et2" class="cash-input" placeholder="Enter No. of Rs.2 Notes">
+            </div>
+
+            <div class="row">
+                <img src="assets/images/one_note.png" alt="">
+                <label for="et1"></label>
+                <input type="number" id="et1" class="cash-input" placeholder="Enter No. of Rs.1 Notes">
+            </div>
+        </div>
+    </section>
+
+    <section class="result">
+        <div class="result-btn">
+            <button id="btnCalculate">Calculate</button>
+            <button id="btnReset">Reset</button>
+        </div>
+        <div>
+            <p id="txtFinalCash">Total Cash: 0</p>
+            <p id="txtFinalCashInWords">Zero</p>
+        </div>
+    </section>
+
+</main>
+<footer>
+    Made with ♥️ by <a href="https://github.com/RanitManik">RANIT MANIK</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

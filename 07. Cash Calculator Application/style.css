@@ -1,10 +1,12 @@
-html {
-    scrollbar-color: #bababa #3f3f3f;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    padding: 0;
+    padding: 2rem;
     background-color: #010409;
     color: white;
     text-align: center;
@@ -12,71 +14,56 @@ body {
     display: grid;
     place-items: center;
     align-content: center;
-    margin: 2rem;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@media screen and (max-width: 27.5rem) and (min-width: 24.375rem) {
+    body {
+        padding-inline: .5rem;
+    }
 }
 
-header {
-    margin-bottom: 1.5rem;
+main {
+    max-width: 50rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #161b22;
+    border-radius: 0.375rem;
+    border: 0.0625rem solid #2c3239;
+    margin-top: 1rem;
 }
 
 h1 {
     font-weight: lighter;
 }
 
-main {
-    max-width: 20rem;
-    width: 100%;
-    padding: 1rem;
-    background-color: #161b22;
-    border-radius: 0.375rem;
-    border: 0.0625rem solid #2c3239;
-}
-
-textarea {
-    resize: none;
-}
-
-textarea:focus {
+input:focus {
     outline: none;
 }
 
-#inputText, #inputShift, #outputText {
-    width: 100%;
-    display: block;
+input {
     font-size: 1rem;
-    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
     font-weight: normal;
     border: 0.0625rem solid #2c3239;
     color: white;
     border-radius: 0.375rem;
     background-color: #0d1117;
     padding: .5rem 1rem;
-    margin-block: .5rem;
 }
 
-#inputText:focus, #inputShift:focus, #outputText:focus {
+input:focus {
     outline: 0.0625rem solid #2f81f7;
+    background-color: #151d26;
 }
 
-#inputText, #inputShift {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+.result {
+    margin-top: 2rem;
 }
 
-#outputText {
-    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
-}
-
-.btn {
+.result-btn {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    margin-bottom: 1rem;
 }
 
 button {
@@ -87,7 +74,7 @@ button {
     padding: 0.5rem 1rem;
     font-weight: bold;
     border-radius: 0.375rem;
-    margin-top: 1rem;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -98,10 +85,8 @@ button:active {
     background-color: #238636;
 }
 
-#input-label, #output-label {
-    display: block;
-    max-width: 20rem;
-    width: 100%;
+#txtFinalCash, #txtFinalCashInWords {
+    margin-top: 1rem;
     border-radius: 0.375rem;
     padding: 0.5rem 1rem;
     border: 0.0625rem solid #2c3239;
@@ -125,3 +110,27 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media screen and (min-width: 60rem) {
+    .money {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main {
+        padding: 2rem;
+    }
+}
+
+.col {
+    display: grid;
+}
+
+.row {
+    display: flex;
+    gap: .5rem;
+    margin: 1rem auto 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

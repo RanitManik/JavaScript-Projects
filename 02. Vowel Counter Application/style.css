@@ -8,7 +8,7 @@ body {
     display: grid;
     place-items: center;
     align-content: center;
-    margin-inline: 2rem;
+    margin: 2rem;
 }
 
 * {
