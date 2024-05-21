@@ -11,24 +11,24 @@ developer, or just curious, your feedback and insights are always welcome.
 
 | #  | Project                                                                                                                                | Live Demo                                                                                                         |
 |:--:|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 01 | [Stopwatch Timer Application](https://github.com/RanitManik/JavaScript-projects/tree/main/01.%20Stopwatch%20Timer%20Application)       | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/01.%20Stopwatch%20Timer%20Application/index.html)    |
-| 02 | [Vowel Counter Application](https://github.com/RanitManik/JavaScript-projects/tree/main/02.%20Vowel%20Counter%20Application)           | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/02.%20Vowel%20Counter%20Application/index.html)      |
-| 03 | [Calculator Application](https://github.com/RanitManik/JavaScript-projects/tree/main/03.%20Calculator%20Application)                   | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/03.%20Calculator%20Application/index.html)           |
-| 04 | [Encryption Application](https://github.com/RanitManik/JavaScript-projects/tree/main/04.%20Encryption%20Application)                   | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/04.%20Encryption%20Application/index.html)           |
-| 05 | [Poll System Application](https://github.com/RanitManik/JavaScript-projects/tree/main/05.%20Poll%20System%20Application)               | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/05.%20Poll%20System%20Application/index.html)        |
-| 06 | [Password Generator Application](https://github.com/RanitManik/JavaScript-projects/tree/main/06.%20Password%20Generator%20Application) | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/06.%20Password%20Generator%20Application/index.html) |
-| 07 | [Cash Calculator Application](https://github.com/RanitManik/JavaScript-projects/tree/main/07.%20Cash%20Calculator%20Application)       | [Live Demo](https://ranitmanik.github.io/JavaScript-projects/07.%20Cash%20Calculator%20Application/index.html)    |
+| 01 | [Stopwatch Timer Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/01.%20Stopwatch%20Timer%20Application)       | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/01.%20Stopwatch%20Timer%20Application/index.html)    |
+| 02 | [Vowel Counter Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/02.%20Vowel%20Counter%20Application)           | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/02.%20Vowel%20Counter%20Application/index.html)      |
+| 03 | [Calculator Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/03.%20Calculator%20Application)                   | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/03.%20Calculator%20Application/index.html)           |
+| 04 | [Encryption Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/04.%20Encryption%20Application)                   | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/04.%20Encryption%20Application/index.html)           |
+| 05 | [Poll System Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/05.%20Poll%20System%20Application)               | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/05.%20Poll%20System%20Application/index.html)        |
+| 06 | [Password Generator Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/06.%20Password%20Generator%20Application) | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/06.%20Password%20Generator%20Application/index.html) |
+| 07 | [Cash Calculator Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/07.%20Cash%20Calculator%20Application)       | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/07.%20Cash%20Calculator%20Application/index.html)    |
 
 ## How to Use
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/RanitManik/JavaScript-projects.git
+   git clone https://github.com/RanitManik/JavaScript-Projects.git
    ```
 
 2. Navigate to the specific challenge directory.
    ```bash
-   cd javascript-projects/challengeX
+   cd javaScript-Projects/challengeX
    ```
 3. Open the `index.html` file in your preferred web browser to view the solution.
 
