@@ -1,4 +1,4 @@
-<h1>JavaScript Projects</h1>
+# JavaScript-Projects
 
 Greetings, fellow developers! This is Ranit Manik, and I'm excited to present my JavaScript Projects repository. Here,
 you'll find a collection of projects that I've completed during my journey as a beginner in JavaScript. Each project has
