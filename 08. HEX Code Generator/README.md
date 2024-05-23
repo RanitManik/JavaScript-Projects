@@ -42,5 +42,3 @@ The challenge is to develop a **HEX Code Generator** using JavaScript.
 
 Gratitude is extended to the open-source community for fostering an environment of collaboration and continuous
 improvement.
-
-Calculate your cash denominations effortlessly! 💰🧮
