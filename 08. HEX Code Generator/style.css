@@ -1,0 +1,172 @@
+:root {
+    --primary-color: #010409;
+    --secondary-color: #161b22;
+    --accent-color: #2c3239;
+    --highlight-color: #2f81f7;
+    --background-color: #010409;
+    --text-color: white;
+    --border-color: #2c3239;
+    --hover-color: #2ea043;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    padding: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+main {
+    max-width: min(60rem, 90%);
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 0.375rem;
+    border: 0.0625rem solid var(--border-color);
+    margin-top: 1rem;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-block: 1rem;
+    color: var(--hover-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+button:active {
+    background-color: var(--accent-color);
+}
+
+footer {
+    width: 100%;
+    max-width: 20rem;
+    margin-block: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    border: 0.0625rem solid var(--border-color);
+}
+
+footer a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 60rem) {
+    main {
+        max-width: min(55rem, 90%);
+    }
+}
+
+@media screen and (max-width: 27.5rem) and (min-width: 24.375rem) {
+    body {
+        padding-inline: .5rem;
+    }
+}
+
+@media screen and (max-width: 27.5rem) {
+    main {
+        max-width: 100%;
+    }
+}
+
+
+/* MAIN CSS */
+
+.color__shades {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.color__shades li {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    position: relative;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+}
+
+.color__shades li:hover {
+    border: 1px solid var(--highlight-color);
+    background-color: rgba(47, 130, 247, 0.3);
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    background-color: #1f8041;
+}
+
+li:hover .color::before {
+    position: absolute;
+    content: url("./assets/images/copy.svg");
+}
+
+li:hover .color.clicked::before {
+    position: absolute;
+    content: url("./assets/images/copied.svg");
+}
+
+.hex-code {
+    user-select: all;
+    font-size: 1.1rem;
+}
+
+.hex-code::selection {
+    background: white;
+    color: black;
+}
