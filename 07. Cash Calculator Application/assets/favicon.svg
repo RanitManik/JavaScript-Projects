@@ -2,7 +2,7 @@
     <defs>
         <style>.cls-4{fill:#f6fafd}.cls-5{fill:#78b300}.cls-7{fill:#4f813b}.cls-10{fill:#141e21}</style>
     </defs>
-    <g id="_30-money" data-name="30-money">
+    <g id="_30-money">
         <circle cx="24" cy="24" r="23" style="fill:#ffce52"/>
         <path d="M24 4c12.15 0 22 8.507 22 19h.975a23 23 0 0 0-45.95 0H2C2 12.507 11.85 4 24 4z" style="fill:#ffe369"/>
         <path d="M46 23c0 10.493-9.85 19-22 19S2 33.493 2 23h-.975c-.014.332-.025.665-.025 1a23 23 0 0 0 46 0c0-.335-.011-.668-.025-1z"

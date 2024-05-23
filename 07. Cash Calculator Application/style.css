@@ -36,10 +36,6 @@ h1 {
     font-weight: lighter;
 }
 
-input:focus {
-    outline: none;
-}
-
 input {
     font-size: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
@@ -91,9 +87,6 @@ button:active {
     padding: 0.5rem 1rem;
     border: 0.0625rem solid #2c3239;
     font-weight: bold;
-   /* display: flex;
-    flex-wrap: wrap;
-    align-content: center;*/
 }
 
 footer {
