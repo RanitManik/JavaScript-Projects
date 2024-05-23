@@ -18,7 +18,7 @@ developer, or just curious, your feedback and insights are always welcome.
 | 05 | [Poll System Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/05.%20Poll%20System%20Application)               | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/05.%20Poll%20System%20Application/index.html)        |
 | 06 | [Password Generator Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/06.%20Password%20Generator%20Application) | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/06.%20Password%20Generator%20Application/index.html) |
 | 07 | [Cash Calculator Application](https://github.com/RanitManik/JavaScript-Projects/tree/main/07.%20Cash%20Calculator%20Application)       | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/07.%20Cash%20Calculator%20Application/index.html)    |
-| 08 | [HEX Code Generator](https://github.com/RanitManik/JavaScript-projects/tree/main/07.%20Cash%20Calculator%20Application)       | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/08.%20HEX%20Code%20Generator/index.html)             |
+| 08 | [HEX Code Generator](https://github.com/RanitManik/JavaScript-projects/tree/main/08.%20HEX%20Code%20Generator)       | [Live Demo](https://ranitmanik.github.io/JavaScript-Projects/08.%20HEX%20Code%20Generator/index.html)             |
 
 ## How to Use
 
