@@ -1,8 +1,8 @@
 # HEX Code Generator
 
-Welcome to the HEX Code Generator project! This is the seventh challenge in the JavaScript Projects series,
-where we focus on building a HEX Code Generator. In this project, users can calculate cash denominations based
-on the amount entered. Let's explore the details.
+Welcome to the HEX Code Generator project! This is the seventh challenge in the JavaScript Projects series, where we
+focus on building a HEX Code Generator. In this project, users can generate a random six-digit HEX code upon user
+request (e.g., by clicking a button). Let's explore the details.
 
 ## Table of Contents
 
@@ -14,9 +14,11 @@ on the amount entered. Let's explore the details.
 
 ## The Challenge
 
-The challenge is to develop a HEX Code Generator using JavaScript. The application should allow users to input
-the quantities of different currency denominations they possess, calculate the total cash amount based on these inputs,
-and display the result. Additionally, include a reset button to clear all inputs.
+The challenge is to develop a **HEX Code Generator** using JavaScript.
+
+- Generate a random six-digit HEX code upon user request (e.g., clicking a button).
+- Display the generated HEX code on the screen.
+- Optionally, allow users to copy the generated code to their clipboard.
 
 ## Screenshot
 
@@ -29,7 +31,7 @@ and display the result. Additionally, include a reset button to clear all inputs
   GitHub: [HEX Code Generator Solution](https://github.com/RanitManik/JavaScript-projects/tree/main/07.%20Cash%20Calculator%20Application)
 - **Live Demo**:
   Experience the application
-  live: [Cash Calculator Live Demo](https://ranitmanik.github.io/JavaScript-projects/07.%20Cash%20Calculator%20Application/index.html)
+  live: [HEX Code Generator Live Demo](https://ranitmanik.github.io/JavaScript-Projects/08.%20HEX%20Code%20Generator/index.html)
 
 ## Author
 
