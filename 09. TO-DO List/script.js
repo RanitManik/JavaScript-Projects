@@ -34,7 +34,7 @@ addBtn.addEventListener('click', (e) => {
 function addTaskToTable(task) {
     const node = document.createElement("tr");
     node.innerHTML = `
-        <td class="task_name">${task.name}</td>
+        <td class="task_name"><p>${task.name}</p></td>
         <td class="task_due_date">${task.date}</td>
         <td class="task_status">${task.status}</td>
         <td class="task_actions">
@@ -44,6 +44,9 @@ function addTaskToTable(task) {
     `;
 
     tableBody.appendChild(node);
+
+    // Automatically scroll to the latest task
+    node.scrollIntoView({behavior: 'smooth', block: 'end'});
 
     // Add event listeners for the new task's actions
     node.querySelector('.complete-task').addEventListener('click', () => {
@@ -88,7 +91,6 @@ function removeTaskFromLocalStorage(taskToRemove) {
     tasks = tasks.filter(task => !(task.name === taskToRemove.name && task.date === taskToRemove.date));
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }
-
 
 window.addEventListener('load', () => {
     loader.style.display = 'none';

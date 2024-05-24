@@ -169,6 +169,13 @@ td {
     white-space: nowrap;
 }
 
+td p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
 thead {
     background-color: var(--primary-color);
 }
