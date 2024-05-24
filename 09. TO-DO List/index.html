@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="To-Do Application - Organize your tasks efficiently. Developed by RANIT MANIK.">
+    <title>To-Do Application</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="To-Do Application">
+    <meta property="og:description"
+          content="To-Do Application - Organize your tasks efficiently. Developed by RANIT MANIK.">
+    <meta property="og:image"
+          content="https://ranitmanik.github.io/JavaScript-Projects/09.%20TO-DO%20List/assets/favicon.svg">
+    <meta property="og:url"
+          content="https://ranitmanik.github.io/JavaScript-Projects/09.%20TO-DO%20List/index.html">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card"
+          content="summary_large_image">
+    <meta name="twitter:title"
+          content="To-Do Application - Organize your tasks efficiently. Developed by RANIT MANIK.">
+    <meta name="twitter:description"
+          content="To-Do Application - This application allows users to manage their tasks efficiently. Developed by RANIT MANIK, ensuring a user-friendly experience for all.">
+    <meta name="twitter:image"
+          content="https://ranitmanik.github.io/JavaScript-Projects/09.%20TO-DO%20List/Screen%20Shot.png">
+</head>
+<body>
+<div id="loader">
+    <div id="loading-wheel"></div>
+</div>
+<main>
+    <h1>Todo List</h1>
+    <section>
+        <div class="input__container">
+            <input placeholder="Add Your Todo" type="text" name="to-do" id="task-name">
+            <input type="date" name="calender" id="task-date">
+            <button type="submit" id="add-task">
+                <img src="./assets/images/add.svg" alt="add to list">
+            </button>
+        </div>
+        <div class="table__container">
+            <table>
+                <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody id="table-body">
+                <tr class="table-row">
+                    <td colspan="5" class="no_task_found"><p>No task found</p></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+<footer>
+    Made with ♥️ by <a href="https://github.com/RanitManik">RANIT MANIK</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

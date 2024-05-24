@@ -1,0 +1,227 @@
+:root {
+    --primary-color: #010409;
+    --secondary-color: #161b22;
+    --tertiary-color: #01040A99;
+    --accent-color: #2c3239;
+    --highlight-color: #2f81f7;
+    --background-color: #010409;
+    --text-color: white;
+    --border-color: #2c3239;
+    --hover-color: #2ea043;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    padding: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+main {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: 0.375rem;
+    border: 0.0625rem solid var(--border-color);
+    margin-top: 1rem;
+    max-width: 90vw;
+}
+
+h1 {
+    font-weight: bolder;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 0.9rem;
+    margin-block: 1rem;
+    color: var(--hover-color);
+}
+
+button {
+    background-color: var(--accent-color);
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    font-weight: bold;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+button:active {
+    background-color: rgba(47, 161, 67, 0.7);
+}
+
+footer {
+    width: 100%;
+    max-width: 20rem;
+    margin-block: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    border: 0.0625rem solid var(--border-color);
+}
+
+footer a {
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 27.5rem) and (min-width: 24.375rem) {
+    body {
+        padding-inline: .5rem;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    .input__container {
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    body {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 40rem) {
+    .input__container {
+        grid-template-columns: 1fr 1fr auto;
+    }
+}
+
+
+/* MAIN CSS */
+
+.input__container {
+    display: grid;
+    align-items: stretch;
+    gap: 0.75rem;
+}
+
+input {
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border: 0.0625rem solid #2c3239;
+    color: white;
+    border-radius: 0.375rem;
+    background-color: #0d1117;
+    padding: 0.75rem 1.5rem;
+    color-scheme: dark;
+    outline: none;
+}
+
+input:focus {
+    outline: 0.0625rem solid #2f81f7;
+    background-color: #151d26;
+}
+
+.table__container {
+    max-height: 50vh;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    padding: 1rem 4rem;
+    white-space: nowrap;
+}
+
+td {
+    padding: 1rem;
+    white-space: nowrap;
+}
+
+thead {
+    background-color: var(--primary-color);
+}
+
+tbody {
+    background-color: var(--tertiary-color);
+}
+
+.task_actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.task_actions button {
+    padding: 0.5rem;
+}
+
+.complete-task:hover {
+    background-color: var(--highlight-color);
+}
+
+.delete-task:hover {
+    background-color: red;
+}
+
+.no_task_found {
+    padding: 2rem;
+}
+
+#loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    display: grid;
+    place-items: center;
+}
+
+#loading-wheel {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid var(--border-color);
+    border-top-color: var(--highlight-color);
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
