@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="To-Do Application - Organize your tasks efficiently. Developed by RANIT MANIK.">
+    <title>Drag And Drop Image Uploader</title>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Drag And Drop Image Uploader</h1>
+</header>
+<main>
+    <div id="drop-area" class="container drop-area">
+        <label for="input-file">
+            <input type="file" hidden name="file" id="input-file" accept="image/*">
+        </label>
+        <div class="img-view" id="img-view">
+            <img id="icon" class="icon" src="./assets/images/icon.svg" alt="Upload Icon">
+            <p>Drag and drop or click here <br> to upload an image</p>
+            <span>upload any images from device</span>
+        </div>
+    </div>
+</main>
+<footer>
+    Made with ♥️ by <a href="https://github.com/RanitManik">RANIT MANIK</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
