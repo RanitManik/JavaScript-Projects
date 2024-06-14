@@ -157,3 +157,23 @@ a.author-link {
 a.author-link:hover {
     color: var(--high-color);
 }
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-body); /* Color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #304d80; /* Color of the scroll thumb */
+    border-radius: 20px; /* Rounded corners */
+    border: 3px solid var(--background-body); /* Border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--high-color); /* Color on hover */
+}
