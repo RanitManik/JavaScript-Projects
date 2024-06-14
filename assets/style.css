@@ -1,0 +1,159 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --high-color: #64ffda;
+    --selection: #233554;
+    --background-body: #0a192f;
+    --lang-color: #7d88a6;
+}
+
+.high-color {
+    color: var(--high-color);
+}
+
+.high-color-hover {
+    color: #a8b2d1;
+    transition: all 0.1s ease;
+}
+
+.high-color-hover:hover {
+    color: var(--high-color);
+}
+
+*::selection {
+    background-color: var(--selection);
+}
+
+body {
+    background-color: var(--background-body);
+    padding: 0 10vw;
+}
+
+p {
+    font-family: "Futura PT", sans-serif;
+}
+
+.heading-text {
+    margin-top: 50px;
+    font-family: Calibre, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--high-color);
+    text-align: center;
+}
+
+.sub-heading {
+    margin-top: 15px;
+    font-family: "SF Mono", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* container */
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .box-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .box-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.folder-icon {
+    width: 40px;
+    height: auto;
+}
+
+.link-icon {
+    width: 22px;
+    height: auto;
+}
+
+.box {
+    height: auto;
+    padding: 32px;
+    background-color: #112240;
+    color: #a8b2d1;
+    transition: all 0.2s ease;
+}
+
+.box:hover {
+    color: #64ffda;
+    transform: translateY(-6px);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.second-link-icon {
+    margin-right: 10px;
+}
+
+.card-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-inline: auto;
+    max-width: 1920px;
+}
+
+.text h1 {
+    font-family: Calibre, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: inherit;
+    margin-bottom: 12px;
+}
+
+.text p {
+    font-family: Calibre, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #a8b2d1;
+}
+
+.lang-text h3 {
+    color: var(--lang-color);
+    font-size: 12px;
+    font-family: "SF Mono", sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-text {
+    height: auto;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+}
+
+a.author-link {
+    color: var(--lang-color);
+    text-decoration: underline;
+    transition: all ease 0.15s;
+}
+
+a.author-link:hover {
+    color: var(--high-color);
+}

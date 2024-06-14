@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Stopwatch Timer Application",
+    "description": "A simple and interactive stopwatch application to measure time intervals, with start, stop, and reset functionalities.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/01.%20Stopwatch%20Timer%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/01.%20Stopwatch%20Timer%20Application"
+    }
+  },
+  {
+    "title": "Vowel Counter Application",
+    "description": "An application that counts the number of vowels in a given text input, providing a quick analysis of vowel frequency.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/02.%20Vowel%20Counter%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/02.%20Vowel%20Counter%20Application"
+    }
+  },
+  {
+    "title": "Calculator Application",
+    "description": "A basic calculator application that performs arithmetic operations like addition, subtraction, multiplication, and division.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/03.%20Calculator%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/03.%20Calculator%20Application"
+    }
+  },
+  {
+    "title": "Encryption Application",
+    "description": "An application that encrypts and decrypts text using a simple algorithm, enhancing the security of messages.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/04.%20Encryption%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/04.%20Encryption%20Application"
+    }
+  },
+  {
+    "title": "Poll System Application",
+    "description": "A polling system application that allows users to create polls and vote on various options, displaying the results dynamically.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/05.%20Poll%20System%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/05.%20Poll%20System%20Application"
+    }
+  },
+  {
+    "title": "Password Generator Application",
+    "description": "A secure password generator that creates random passwords based on user-defined criteria like length and character types.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/06.%20Password%20Generator%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/06.%20Password%20Generator%20Application"
+    }
+  },
+  {
+    "title": "Cash Calculator Application",
+    "description": "An application to help users calculate the total amount of cash by entering different denominations and their quantities.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/07.%20Cash%20Calculator%20Application/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-Projects/tree/main/07.%20Cash%20Calculator%20Application"
+    }
+  },
+  {
+    "title": "HEX Code Generator",
+    "description": "A tool that generates random HEX color codes, useful for web developers and designers looking for color inspiration.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/08.%20HEX%20Code%20Generator/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-projects/tree/main/08.%20HEX%20Code%20Generator"
+    }
+  },
+  {
+    "title": "TO-DO List",
+    "description": "A TO-DO list application that allows users to add, delete, and mark tasks as completed, helping them manage their daily tasks effectively.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/09.%20TO-DO%20List/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-projects/tree/main/09.%20TO-DO%20List"
+    }
+  },
+  {
+    "title": "Drag And Drop Image Uploader",
+    "description": "An application that allows users to upload images by dragging and dropping them into a designated area, simplifying the upload process.",
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {
+      "live": "https://ranitmanik.github.io/JavaScript-Projects/10.%20Drag%20And%20Drop%20Image%20Uploader/index.html",
+      "github": "https://github.com/RanitManik/JavaScript-projects/tree/main/10.%20Drag%20And%20Drop%20Image%20Uploader"
+    }
+  }
+]
