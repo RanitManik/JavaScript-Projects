@@ -8,6 +8,7 @@
   ![GitHub License](https://img.shields.io/github/license/RanitManik/JavaScript-Projects)
   ![GitHub forks](https://img.shields.io/github/forks/RanitManik/JavaScript-Projects?style=default)
   ![GitHub stars](https://img.shields.io/github/stars/RanitManik/JavaScript-Projects?style=default)
+  <br/>
   ![wakatime](https://wakatime.com/badge/github/RanitManik/JavaScript-Projects.svg)
   ![pages-build-deployment](https://github.com/RanitManik/JavaScript-Projects/actions/workflows/pages/pages-build-deployment/badge.svg)
 </div>
