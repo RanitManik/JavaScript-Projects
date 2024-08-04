@@ -1,5 +1,17 @@
 # JavaScript-Projects
 
+<div>
+    
+  ![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/JavaScript-Projects)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/JavaScript-Projects)
+  ![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/JavaScript-Projects)
+  ![GitHub License](https://img.shields.io/github/license/RanitManik/JavaScript-Projects)
+  ![GitHub forks](https://img.shields.io/github/forks/RanitManik/JavaScript-Projects?style=default)
+  ![GitHub stars](https://img.shields.io/github/stars/RanitManik/JavaScript-Projects?style=default)
+  ![wakatime](https://wakatime.com/badge/github/RanitManik/JavaScript-Projects.svg)
+  ![pages-build-deployment](https://github.com/RanitManik/JavaScript-Projects/actions/workflows/pages/pages-build-deployment/badge.svg)
+</div>
+
 Greetings, fellow developers! This is Ranit Manik, and I'm excited to present my JavaScript Projects repository. Here,
 you'll find a collection of projects that I've completed during my journey as a beginner in JavaScript. Each project has
 its own dedicated directory, featuring separate HTML, CSS, and JavaScript files for convenient navigation and
