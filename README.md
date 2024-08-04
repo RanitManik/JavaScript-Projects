@@ -1,6 +1,9 @@
+<div align="center">
+
+<img height="70px" src="https://skillicons.dev/icons?i=html,css,js" alt="HTML,CSS,JS"/>
+
 # JavaScript-Projects
 
-<div>
     
   ![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/JavaScript-Projects)
   ![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/JavaScript-Projects)
